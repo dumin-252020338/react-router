@@ -1,0 +1,33 @@
+.autobar h2{
+    background-color:rgb(194, 158, 158);
+    cursor: pointer;
+}
+.autobar h2>ol{
+    background-color:pink;
+}
+.autobar li{
+    background-color:rgb(133, 53, 122);
+    margin:10px;
+}
+.autobar .small{
+    cursor: pointer;
+}
+.autobar p{
+    background-color: #ccc;
+}
+.autobar .toggle{
+    height: 0px;
+    overflow: hidden;
+    transition: 1s;
+    margin:10px;
+    background-color: rgb(61, 189, 140);
+}
+.autobar .insideToggle{
+    height: 0px;
+    overflow: hidden;
+    transition: 1s;
+    margin:5px 0;
+}
+.autobar p{
+    cursor: pointer;
+}

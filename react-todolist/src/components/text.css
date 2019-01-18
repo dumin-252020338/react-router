@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#test{
+    background-color: #ccc;
+    /* width:500px; */
+}
+#test h3{
+    text-align:center;
+}
+#test>div{
+    margin: 10px 50px;
+}
+input{
+    text-indent: 2em;
+}
+.output{
+    width: 300px;
+    border: 1px solid;
+    line-height: 20px;
+    text-indent: 2em;
+    overflow: hidden;
+}
+h2 a{
+    padding:10px;
+}

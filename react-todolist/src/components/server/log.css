@@ -1,0 +1,23 @@
+.log{
+    display:flex;
+    justify-content: space-between;
+}
+.logLeft{
+    width:100px;
+    height: calc(100vh - 100px);
+    /* background-color: rgb(182, 172, 173); */
+    text-align: center;
+}
+.logLeft li{
+    height: 50px;
+    padding: 20px 0;
+    line-height: 50px;
+}
+.logLeft li:hover{
+    background-color: #555;
+}
+.logRight{
+    width: calc(100vw - 100px);
+    height: calc(100vh - 100px);
+    background-color: #555;
+}

@@ -1,0 +1,6 @@
+#right{
+    width:calc(100vw - 200px);
+    height: 100vh;
+    background-color: rgb(61, 149, 130);
+    font-size: 20px;
+}

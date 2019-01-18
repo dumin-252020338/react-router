@@ -1,0 +1,20 @@
+#topnav{
+    display:flex;
+    justify-content: space-between;
+    width:100vw;
+    height: 60px;
+    background-color: #000;
+}
+#topnav .topRight{
+    width:calc(100vw - 200px);
+    height: 100%;
+    line-height: 60px;
+}
+#topnav .topRight ul{
+    /* height: 100%; */
+    /* line-height: 60px; */
+}
+#topnav .topRight ul li{
+    float: right;
+    margin: 0px 50px;
+}
